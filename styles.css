@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('fonts/Minecraftia-Regular.ttf') format('truetype');
+}
+
+.tekst {
+    top: 80%;
+    position: absolute;
+}
+
+.favv {
+    top: 87%;
+    position: absolute;
+}
+
+.co {
+    top: 0%;
+    left: 75%;
+    position: absolute;
+}
+
+.gif {
+    top: 30%;
+    left: 5%;
+    position: absolute;
+}
+
+.giff {
+    top: 45%;
+    position: absolute;
+}
+
+.bkpoint {
+    top: 70%;
+    left: 40%;
+    position: absolute;
+}
+
+.bkh {
+    top: 12%;
+    left: 61%;
+    position: absolute;
+    scale: 0.35;
+}
+
+.bks {
+    top: 63%;
+    left: 72%;
+    position: absolute;
+    scale: 0.35;
+}
+
+.clic {
+    top: 61%;
+    left: 82%;
+    position: absolute;
+}
+
+body {
+    background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+    letter-spacing: 2px;
+    font-family: 'Minecraftia', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    padding-top: 50px;
+    background-color:rgb(49, 49, 49);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    overflow: hidden;
+}
+
+button {
+    font-family: 'Minecraftia', sans-serif;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px #000000;
+    left: 50%;
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
+.spotify-container {
+    background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Minecraftia', sans-serif;
+    text-shadow: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.spotify-container p {
+    margin: 0;
+    padding-bottom: 5px;
+    flex-basis: 100%;
+}
+
+.spotify-widget {
+    display: flex;
+    gap: 15px;
+}
+
+iframe {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shadowbox {
+    box-shadow: 0 4px 8px rgba(107, 107, 107, 0.63);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.n {
+    top: 30%;
+    left: 50%;
+    position:fixed;
+}
+
+.button1 {
+    font-family: 'Minecraftia', sans-serif;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px #000000;
+    left: 90%;
+    position: absolute;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+.button2 {
+    font-family: 'Minecraftia', sans-serif;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px #000000;
+    left: 90%;
+    position: absolute;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}       
+.button3 {
+    font-family: 'Minecraftia', sans-serif;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px #000000;
+    left: 90%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+.button5 {
+    font-family: 'Minecraftia', sans-serif;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px #000000;
+    left: 90%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}

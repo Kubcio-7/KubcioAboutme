@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To ja</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        .back-button {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #0000002f;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .enlarged {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+            z-index: 1000;
+            background-color: white;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="back-button" onclick="window.history.back()">Cofnij</button>
+
+    <h1>A więc zacznijmy w taki sposób :3</h1>
+
+    <z class="shadowbox">Nazywam się Kuba (Kubcio / HDDmisiepali) <br>
+        Jestem 18 letnim człowieczkiem z czatów discorda <br>
+        Amatorsko tworzę strony internetowe na własny użytek oraaz od czasu do czasu modeluje w 3D<br>
+        W przyszłości chciałbym rozwinąc się w modelowaniu 3D oraaz programowaniu<br>
+        Od niedawna uczę się języków zagranicznych (Rosyjski, Francuski) (nie licząc językow uczonych w szkole) <br>
+        Ćwiczę kalistenikę oraz od czasu do czasu cardio (bieganko / rowerek) <br>
+        <br>
+    </z>
+
+    <h2>Co uwielbiam?</h2>
+
+    <n class="shadowbox">
+        Co uwielbiam? Uwielbiam naturę (DONT WORRY! Nie jestem ekoświrem) <br>
+        Kocham spacerkować, chodzić bez celu słuchając muzyczki :3 <br>
+        Uwielbiam również stare bajki (muminki, reksio, pingu, krecik) <br>
+        Oraaaz grać w gierki x3
+    </n>
+
+    <h3>Jaki jestem?</h3>
+
+    <jj class="shadowbox">
+        Jaki jestem? Hmm...<br> Jestem otwarty na nowe znajomośći!! :3 (oczywiście te które mają sens) <br>
+        Jestem miły, czuły, pomocny, oraz staraam się być wyrozumiały ^^ <br> (przynajmniej tak mi się zdaje)<br>
+        Czasami zawiesza mi się mózg x3, wtedy potrzebuję chwili na przetworzenie informacji
+    </jj>
+
+    <div class="bks">
+        <img src="images/bkspin.webp">
+    </div>
+
+    <div class="gif">
+        <img src="images/furro.gif" onclick="window.location.href='indexbp.html'">
+    </div>
+
+    <div class="bkh">
+        <img src="images/bkhello.webp">
+    </div>
+
+    <clic class="clic">
+        <img src="images/bkpointing.png">
+    </clic>
+
+
+    <div class="spotify-container">
+        <iframe class="spotify-widget"
+            src="https://open.spotify.com/embed/track/2k9KGkKgBNVWoCQDU197sp?utm_source=generator&theme=0" width="300"
+            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="spotify-widget"
+            src="https://open.spotify.com/embed/track/5pSvjjfsh34sLrkYSNGCl4?utm_source=generator&theme=0" width="300"
+            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="spotify-widget"
+            src="https://open.spotify.com/embed/track/7ibnCDh6aaK7CW2UppyH3j?utm_source=generator&theme=0" width="300"
+            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="spotify-widget"
+            src="https://open.spotify.com/embed/track/7As9SBwfGKFhQFBbaSooV4?utm_source=generator&theme=0" width="300"
+            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="spotify-widget"
+            src="https://open.spotify.com/embed/track/0JkryawvRTmBeA6cfzKumy?utm_source=generator&theme=0" width="300"
+            height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="spotify-widget"
+            src="https://open.spotify.com/embed/track/1jDJFeK9x3OZboIAHsY9k2?utm_source=generator&theme=0" width="300"
+            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <o class="co">𝙎𝙩𝙧𝙤𝙣𝙖 𝙗𝙮. 𝙆𝙪𝙗𝙘𝙞𝙤 𝙥𝙞𝙨𝙖𝙣𝙖 𝙣𝙖 𝙠𝙤𝙡𝙖𝙣𝙞𝙚</o>
+
+    <d class="favv">Aaaa tutaj moje fav nutki :3</d>
+
+    <div class="button1">
+        <button onclick="openModal('modal1')">Dlaczego taki nick?</button>
+    </div>
+    <div class="button2">
+        <button onclick="openModal('modal2')">Modele</button>
+    </div>
+    <div class="button3">
+        <button onclick="openModal('modal3')">Muminki</button>
+    </div>
+    <div class="button5">
+        <button onclick="openModal('modal5')">Skrót o mnie</button>
+    </div>
+
+    <!-- Modal containers -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <p>Nick wziął się stąd że w komputerze nie miałem wejscia na kolejny dysk <br>
+                aaa nie miałem miejsca to wziąłem stary 10 letni dysk hdd z laptopa <br>
+                i podłączyłem go przez przejsciówkę na usb <br> podczas grania w np bardziej wymagające gierki lub
+                renderowaniu modelu <br>
+                dysk wydawał dźwięki niczym reaktor jądrowy w Czarnobylu XDD </p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <p>Modele zrobione w blenderze <br>
+                Byłoooo ich owiele więcej lecz KOCHANY HDD musiał powiedzieć papa <br>
+                <br>
+                <img src="images/COTL.png" alt="Muminki"
+                    style="width:100%; max-width:400px; display:block; margin: 0 auto;">
+                <img src="images/grzybulo.png" alt="Muminki"
+                    style="width:100%; max-width:400px; display:block; margin: 0 auto;">
+                <img src="images/untitled.png" alt="Muminki"
+                    style="width:100%; max-width:400px; display:block; margin: 0 auto;">
+                <img src="images/cent.png" alt="Muminki"
+                    style="width:100%; max-width:400px; display:block; margin: 0 auto;">
+                <img src="images/wyspa.png" alt="Muminki"
+                    style="width:100%; max-width:400px; display:block; margin: 0 auto;">
+            </p>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <p>Uwielbiam Muminki, dlatego mam Snufkina (Włóczykija) w pfp na dc <br>
+                Jest to moja ulubiona postać :3 (I luv him) Kocham jego osobowosc <br>
+            </p>
+            <img src="images/snufkin.png" alt="Snufkin"
+                style="width:100%; max-width:400px; display:block; margin: 0 auto;">
+            <img src="images/snufkin2.png" alt="Snufkin"
+                style="width:100%; max-width:400px; display:block; margin: 0 auto;">
+            <img src="images/snufkin3.png" alt="Snufkin"
+                style="width:100%; max-width:400px; display:block; margin: 0 auto;"></p>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <p>
+                Imię: Kubcio <br>
+                Wiek: 18 <br>
+                Wzrost: 178 cm <br>
+                Femboy :3 <br>
+                Status: Wolny / Szukam!!!<br>
+                Pochodzenie: Lubelskie <br>
+                Zainteresowania: Programowanie, modelowanie 3D, języki obce <br>
+                Hobby: Kalistenika, spacery, granie w gry <br>
+                Ulubione bajki: Muminki, Reksio, Pingu, Krecik <br>
+                Ulubione gry: Minecraft, Cult Of The Lamb, Overwatch 2, Sea Of Thieves, Ets2 <br>
+                Cechy charakteru: Miły, pomocny, czuły, niesmiały, otwarty na nowe znajomości, wyrozumiały <br>
+                Więcej pv na dc :3 <br>
+                <br> <br> I use arch btw :3
+                <img src="images/arch.png" alt="arch"
+                    style="width:100%; max-width:400px; display:block; margin: 0 auto;" onclick="enlargeImage(this)">
+                <spinn class="spinnn">
+                    <img src="images/bkspin.webp" alt="Spinning Image">
+                </spinn>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+
+        // Close modal when clicking outside of it
+        window.onclick = function (event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            });
+        }
+
+        function enlargeImage(img) {
+            const enlargedImg = document.createElement('img');
+            enlargedImg.src = img.src;
+            enlargedImg.className = 'enlarged';
+            enlargedImg.onclick = () => document.body.removeChild(enlargedImg);
+            document.body.appendChild(enlargedImg);
+        }
+    </script>
+
+</body>
+
+</html>
